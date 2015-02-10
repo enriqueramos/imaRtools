@@ -1,9 +1,13 @@
 Package: imaRtools
 Type: Package
-Title: What the package does (short line)
-Version: 1.0
+Title: Tools for parsing and manipulating data from IMARPE
+Version: 0.0.9
 Date: 2015-02-10
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Author@R: c( person("Enrique", "Ramos-Vasquez", email =
+"enrique756@gmail.com", role = c("cre", "aut")))
+Description: Tools for parsing and manipulating data from IMARPE
+License: GPL-2
+Depends:
+ rJava,
+ xlsx,
+ xlsxjars
